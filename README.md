@@ -16,6 +16,9 @@ Try it now: [https://tomiktmk.com/](https://tomiktmk.com/)
 Create DB stripe_db 
 Import TABLE from stripe_db.txt with phpmyadmin or by command line
 
+### Stripe API
+Set Stripe API Key in .env file ( Stripe Testing or Live )
+
 ### Installation (Node.js)
 ```bash
 git clone https://github.com/4webhub/Stripe-Checkout-for-Restaurant-Cafe.git
