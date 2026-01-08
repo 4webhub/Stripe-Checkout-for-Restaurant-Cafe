@@ -30,3 +30,5 @@ npm install mysql2
 node server.js
 
 visit localhost:4242
+
+For any custom Stripe Checkout or Stripe PaymentIntent code, please feel free to contact me.
