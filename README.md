@@ -12,10 +12,18 @@ Free open-source demo version of a simple and secure Stripe payment link generat
 ### Live Demo
 Try it now: [https://tomiktmk.com/](https://tomiktmk.com/)
 
+### DB
+Create DB stripe_db 
+Import TABLE from stripe_db.txt with phpmyadmin or by command line
+
 ### Installation (Node.js)
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/4webhub/Stripe-Checkout-for-Restaurant-Cafe.git
+cd Stripe-Checkout-for-Restaurant-Cafe
+unzip stripecheckout.zip
+cd stripecheckout
 npm install
 npm install mysql2
 node server.js
+
+visit localhost:4242
