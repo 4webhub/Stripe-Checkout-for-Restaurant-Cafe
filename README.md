@@ -12,6 +12,12 @@ Free open-source demo version of a simple and secure Stripe payment link generat
 ### Live Demo
 Try it now: [https://tomiktmk.com/](https://tomiktmk.com/)
 
+### Admin Dashboard
+define('STRIPE_PUBLISHABLE_KEY', 'your_keys_here');
+define('STRIPE_SECRET_KEY', 'your_keys_here');
+Set database credentials in config.php
+Set Stripe API keys in config.php
+
 ### DB
 Create DB stripe_db 
 Import TABLE from stripe_db.txt with phpmyadmin or by command line
