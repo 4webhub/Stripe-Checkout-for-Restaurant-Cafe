@@ -1,23 +1,21 @@
-# Stripe Payment Link Generator for Restaurants & Cafes 
+# Stripe Payment Link Generator– Node.js Demo
 
-Boost your restaurant’s / cafe's payments with this simple and secure Stripe Checkout Link Generator!
+Free open-source demo version of a simple and secure Stripe payment link generator, perfect for restaurants, cafes, and delivery services.
 
-### Key Features
--  **Instant secure payment links** with built-in tip support (fixed or percentage)
--  **Multi-language support**: English, Portuguese, Russian, Ukrainian (perfect for Portugal and international businesses)
--  **Admin panel + MySQL transaction history** (available in the full/pro version)
--  **Flexible options**: Self-installed or hosted SaaS version
+### Features (Demo Version)
+- Instant secure Stripe payment links
+- Built-in tip support (fixed amount or percentage)
+- Multi-language interface: English, Portuguese, Russian, Ukrainian
+- Clean and responsive design
+- Live demo: [https://tomiktmk.com/](https://tomiktmk.com/)
 
-Ideal for restaurants, cafes, delivery services, and small businesses wanting quick, no-code payment solutions.
+### Live Demo
+Try it now: [https://tomiktmk.com/](https://tomiktmk.com/)
 
-### Demo
-[Live Demo Link] (https://tomiktmk.com/)  
-[Screenshots below]
-
-### Installation
-(Quick setup instructions here)
-
-### Full Version / SaaS
-For the complete features (admin panel, unlimited transactions, priority support), check out the hosted SaaS at [https://4webhub.com] or contact me for a custom license.
-
-⭐ Star this repo if you like it! Feedback welcome.
+### Installation (Node.js)
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+npm install
+npm install mysql2
+npm start
