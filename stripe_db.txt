@@ -1,0 +1,19 @@
+CREATE TABLE `payments` (
+  `id` int(11) NOT NULL,
+  `amount` decimal(10,2) NOT NULL,
+  `tip` decimal(10,2) NOT NULL DEFAULT 0.00,
+  `total` decimal(10,2) NOT NULL,
+  `lang` varchar(5) NOT NULL DEFAULT 'en',
+  `stripe_payment_intent_id` varchar(255) DEFAULT NULL,
+  `stripe_payment_id` varchar(255) DEFAULT NULL,
+  `stripe_url` varchar(255) DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `status` varchar(20) DEFAULT 'pending'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `payments`
+--
+
+INSERT INTO `payments` (`id`, `amount`, `tip`, `total`, `lang`, `stripe_payment_intent_id`, `stripe_payment_id`, `stripe_url`, `created_at`, `status`) VALUES
+(1, 37.00, 3.70, 40.70, 'en', NULL, NULL, 'https://buy.stripe.com/test_4gMbJ12DD9e9aaf6vZ2Ry3o', '2026-01-08 11:49:32', 'paid');
