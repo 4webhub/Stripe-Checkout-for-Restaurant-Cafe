@@ -18,4 +18,4 @@ git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
 npm install
 npm install mysql2
-npm start
+node server.js
