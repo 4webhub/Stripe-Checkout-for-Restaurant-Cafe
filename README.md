@@ -53,15 +53,11 @@ node server.js
 Access the App:
 Open your browser and go to http://localhost:4242.
 
-Features (Demo Version)
+Features (Demo Version):
 Instantly generate secure Stripe payment links
-
 Built-in tipping support (fixed amount or percentage)
-
 Multi-language interface (English, Portuguese, Russian, Ukrainian)
-
 Clean, responsive design for all device sizes
-
 Easy-to-use admin dashboard for managing payments and settings
 
 For custom Stripe Checkout or PaymentIntent integration, feel free to reach out!
