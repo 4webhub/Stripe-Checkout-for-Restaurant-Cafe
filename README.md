@@ -11,8 +11,6 @@ This free, open-source Stripe Payment Link Generator demo is designed for restau
 STRIPE_API_KEY=
 PAYMENT_FLAVOR_TEXT=
 
-pgsql
-Copy code
 
 - **Set Database Credentials:**  
 Update your database connection settings in `server.js` to match your MySQL server.
