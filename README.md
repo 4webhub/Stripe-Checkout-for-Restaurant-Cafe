@@ -29,12 +29,10 @@ Place your Stripe API key (test or live) in the `.env` file.
  Extract the contents of `Stripe-Checkout-for-Restaurant-Cafe-main.zip` to your working directory.
 
 2. **Navigate to Project Folder:**  
- ```bash
+
  cd stripecheckout
 Install Dependencies:
 
-bash
-Copy code
 npm install
 npm install mysql2
 Update Database Settings:
@@ -45,8 +43,6 @@ Import stripe_db.txt into your MySQL server (using phpMyAdmin or command line).
 
 Run the Server:
 
-bash
-Copy code
 node server.js
 Access the App:
 Open your browser and go to http://localhost:4242.
