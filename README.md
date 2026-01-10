@@ -1,40 +1,67 @@
-# Stripe Payment Link Generator– Node.js Demo
+# Stripe Checkout for Restaurant Cafe
 
-Free open-source demo version of a simple and secure Stripe payment link generator, perfect for restaurants, cafes, and delivery services.
+## How to Use
 
-### Features (Demo Version)
-- Instant secure Stripe payment links
-- Built-in tip support (fixed amount or percentage)
-- Multi-language interface: English, Portuguese, Russian, Ukrainian
-- Clean and responsive design
-- Live demo: [https://tomiktmk.com/](https://tomiktmk.com/)
+This free, open-source Stripe Payment Link Generator demo is designed for restaurants, cafes, and delivery services looking for a simple and secure way to create payment links. Follow these steps to get started quickly:
 
-### Live Demo
-Try it now: [https://tomiktmk.com/](https://tomiktmk.com/)
+### Configuration
 
-### Admin Dashboard
-define('STRIPE_PUBLISHABLE_KEY', 'your_keys_here');
-define('STRIPE_SECRET_KEY', 'your_keys_here');
-Set database credentials in config.php
-Set Stripe API keys in config.php
+- **Set Stripe API Keys:**  
+  Open your `.env` file and define your Stripe Publishable and Secret keys:  
+STRIPE_API_KEY=
+PAYMENT_FLAVOR_TEXT=
 
-### DB
-Create DB stripe_db 
-Import TABLE from stripe_db.txt with phpmyadmin or by command line
+pgsql
+Copy code
 
-### Stripe API
-Set Stripe API Key in .env file ( Stripe Testing or Live )
+- **Set Database Credentials:**  
+Update your database connection settings in `server.js` to match your MySQL server.
 
-### Installation (Node.js)
-```bash
-git clone https://github.com/4webhub/Stripe-Checkout-for-Restaurant-Cafe.git
-cd Stripe-Checkout-for-Restaurant-Cafe
-unzip stripecheckout.zip
-cd stripecheckout
+- **Prepare the Database:**  
+Create a new database named `stripe_db`. Then import the provided `stripe_db.txt` file into your database using phpMyAdmin or the MySQL command line.
+
+- **Set Stripe API Key for Node.js:**  
+Place your Stripe API key (test or live) in the `.env` file.
+
+---
+
+## Installation (Node.js)
+
+1. **Unzip the Package:**  
+ Extract the contents of `Stripe-Checkout-for-Restaurant-Cafe-main.zip` to your working directory.
+
+2. **Navigate to Project Folder:**  
+ ```bash
+ cd stripecheckout
+Install Dependencies:
+
+bash
+Copy code
 npm install
 npm install mysql2
+Update Database Settings:
+Edit server.js to configure your MySQL database credentials.
+
+Restore Database:
+Import stripe_db.txt into your MySQL server (using phpMyAdmin or command line).
+
+Run the Server:
+
+bash
+Copy code
 node server.js
+Access the App:
+Open your browser and go to http://localhost:4242.
 
-visit localhost:4242
+Features (Demo Version)
+Instantly generate secure Stripe payment links
 
-For any custom Stripe Checkout or Stripe PaymentIntent code, please feel free to contact me.
+Built-in tipping support (fixed amount or percentage)
+
+Multi-language interface (English, Portuguese, Russian, Ukrainian)
+
+Clean, responsive design for all device sizes
+
+Easy-to-use admin dashboard for managing payments and settings
+
+For custom Stripe Checkout or PaymentIntent integration, feel free to reach out!
